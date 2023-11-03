@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Final</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+        integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <script>
+        document.querySelector(".round").click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            document.querySelector(".arrow").toggleClass("bounceAlpha");
+        });
+    </script>
+    <!--START top nav menu (contact and circle)-->
+    <ul class="top-nav">
+        <li class="circle1"></li>
+        <li class="circle2"></li>
+        <a href="home123.png"><button class="right-icon-button" id="cm">Contact Me <i
+                    class="fa-solid fa-id-card"></i></button></a>
+    </ul>
+    <!--END top nav menu (contact and circle)-->
+
+    <!--START profile BG img-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <img src="header.jpg" alt="Not Available!" />
+            </div>
+            <div class="col-md-8">
+                <img src="myimg.jpg" alt="Not Available!" id="myimg"/>
+            </div>
+            <h1 class="name-text">Suhail Pasha</h1>
+            <a href="#" id="name-pp"></a>
+            <p class="name-p">@suhailll_pasha</p>
+
+            <a href="home123.png"><button class="left-icon-button" id="cm"><i class="fa-brands fa-instagram"
+                        id="ig"></i> Follow me on Instagram</button></a>
+            <h1 id="pt">Project</h1>
+        </div>
+        <div class="cards">
+            <div class="navbar">
+                <a href="home123.png"><button id="i1"><i class="ri-home-4-line" id="i11"></i>Home</button></a>
+                <a href="home123.png"><button id="i1"><i class="fa-regular fa-address-card"
+                            id="i22"></i>About</button></a>
+                <a href="home123.png"><button id="i1"><i class="ri-file-text-line" id="i33"></i>Resume</button></a>
+                <a href="home123.png"><button id="i1"><i class="ri-fire-line" id="i44"></i>Trending</button></a>
+                <h3 id="nst">Social</h3>
+                <a href="home123.png"><button><i class="fa-brands fa-instagram" id="ing"></i>Instagram</button></a>
+                <a href="home123.png"><button><i class="fa-brands fa-snapchat" id="snc"></i>Snapchat</button></a>
+                <a href="home123.png"><button><i class="fa-brands fa-whatsapp" id="wnp"></i>Whatsapp</button></a>
+                <a href="home123.png"><button><i class="fa-brands fa-linkedin-in" id="lnd"></i>Linkedin</button></a>
+                <a href="home123.png"><button><i class="fa-brands fa-github" id="gnh"></i>Github</button></a>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img width="188" src="discord-clone.webp" alt="NA!">
+                </div>
+                <div class="content">
+                    <h2>Discord Clone</h2>
+                    <p>TypeScript, ReactJS, Tailwind CSS, Node Js</p>
+                </div>
+                <div class="center-con">
+                    <div class="round">
+                        <div id="cta">
+                            <a href="navbg.jpg"><span class="arrow primera next"></span></a>
+                            <a href="navbg.jpg"><span class="arrow segunda next"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img width="188" src="spotify-clone.webp" alt="NA!">
+                </div>
+                <div class="content">
+                    <h2>Spotify Clone</h2>
+                    <p>TypeScript, ReactJS, Tailwind CSS, Node Js</p>
+                </div>
+                <div class="center-con">
+                    <div class="round">
+                        <div id="cta">
+                            <span class="arrow primera next"></span>
+                            <span class="arrow segunda next"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img width="188" src="amazon-clone.webp" alt="NA!">
+                </div>
+                <div class="content">
+                    <h2>Amazon Clone</h2>
+                    <p>TypeScript, ReactJS, Tailwind CSS, Node Js</p>
+                </div>
+                <div class="center-con">
+                    <div class="round">
+                        <div id="cta">
+                            <span class="arrow primera next"></span>
+                            <span class="arrow segunda next"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img width="188" height="100px" src="dalle-clone.webp" alt="NA!">
+                </div>
+                <div class="content">
+                    <h2>DALL·E Clone</h2>
+                    <p>TypeScript, ReactJS, Tailwind CSS, Node Js</p>
+                </div>
+                <div class="center-con">
+                    <div class="round">
+                        <div id="cta">
+                            <span class="arrow primera next"></span>
+                            <span class="arrow segunda next"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 id="wi">What I Know</h1>
+        <div class="secon-card-section">
+
+            <div class="scard">
+                <h2>Frontend</h2>
+                <span id="html">HTML</span>
+                <span id="css">CSS</span>
+                <span id="reactjs">React Js</span>
+                <span id="js">JavaScript</span>
+                <span id="ts">Typescript</span>
+            </div>
+            <div class="scard" id="schild">
+                <h2>Backend</h2>
+                <span id="nj">Node Js</span>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
